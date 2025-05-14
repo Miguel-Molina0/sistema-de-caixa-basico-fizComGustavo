@@ -1,0 +1,59 @@
+*{
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    display: flex;
+}
+
+.Form{
+    margin-top: 30px;
+    margin-inline-start: 650px;
+
+}
+
+.titulo{
+    margin-left: 600px;
+    
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 20%;
+    margin-left: 300px;
+    margin-top: 50px;
+	
+}
+
+.nota-fiscal {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 15px 0;
+}
+
+label{
+    margin-bottom: 20px;
+}

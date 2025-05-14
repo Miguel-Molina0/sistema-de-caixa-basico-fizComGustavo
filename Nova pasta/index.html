@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Sistema Caixa</title>
+</head>
+<body>
+    <h1 class="titulo">Sistema de Caixas</h1>
+    <form action="process.php" method="post">
+
+    <div class="Form">
+        <label for="NomeCliente">Nome do Cliente</label>
+        <br>
+        <input type="text" name="nomeCliente" id="nomeCliente" required>
+    </div>
+
+    <div class="Form">
+        <label for="PrimeiroProduto">Primeiro produto</label>
+        <br>
+        <input type="text" name="PrimeiroProduto" id="PrimeiroProduto" required>
+    </div>
+
+    <div class="Form">
+        <label for="ValorPrimeiroProdt">Valor primeiro produto</label>
+        <br>
+        <input type="number" name="valor1" id="valor1" step="0.1" required>
+    </div>
+
+     <div class="Form">
+        <label for="SegundoProduto">Segundo produto</label>
+        <br>
+        <input type="text" name="produto2" id="produto2" required>
+    </div>
+
+    <div class="Form">
+        <label for="ValorSegundoProdt">Valor Segundo produto</label>
+        <br>
+        <input type="number" name="valor2" id="valor2" step="0.1" required>
+    </div>
+    <button type="submit">Gerar Nota Fiscal</button>
+   
+    </form>
+</body>
+</html>
